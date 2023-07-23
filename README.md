@@ -1,17 +1,18 @@
 # Program-Employee-Filter-Criteria
 Program Employee Filter Criteria
 
-Table of Contents
+## Table of contents
+* [Description]](#description)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Usage](#usage)
+* [API Endpoints](#api_endpoints)
+* [Frontend](#frontend)
+* [Postman Collection](#postman_collection)
+* [Contributing](#contributing)
+* [License](#license)
+
 ## Description
-#Technologies
-#Setup
-#Usage
-#API Endpoints
-#Frontend
-#Postman Collection
-#Contributing
-#License
-#Description
 This project is a web application that allows users to filter employee data based on various criteria. It provides a backend API built with Java Spring Boot and a frontend interface built with HTML, CSS, and JavaScript.
 
 The application utilizes a database to store employee data, and users can search for employees using different parameters such as employee code, name, birth date, birth city, department, job title, direct manager, contract type, and status.
