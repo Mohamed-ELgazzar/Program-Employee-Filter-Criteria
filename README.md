@@ -10,7 +10,7 @@ Program Employee Filter Criteria
 * [API Endpoints](#api-endpoints)
 * [Frontend](#frontend)
 * [Postman Collection](#postman-collection)
-* [Output webisite](#output-website)
+* [Output Website](#output-website)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -102,7 +102,7 @@ Program Employee Filter Criteria Postman Collection
 ![Screenshot from 2023-07-23 20-29-36](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/5bedc80d-7881-4dd4-9e8e-e339211b3e23)
 ![Screenshot from 2023-07-23 20-30-37](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/b68ae93c-7e46-4ce5-ac6f-0693707d02ae)
 
-## Output webisite
+## Output Website
 * Run the application using Maven:
      mvn spring-boot:run
 ![Screenshot from 2023-07-23 21-01-50](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/8f4ed58b-0a9a-42e5-b48c-ad7d6b6da576)
