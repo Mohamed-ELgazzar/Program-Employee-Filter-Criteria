@@ -89,7 +89,8 @@ The search results will be displayed in a table below the form.
 The backend API provides the following endpoint:
 
 POST /employees/search: Performs a search for employees based on the provided criteria. The search criteria are sent as JSON data in the request body. The API responds with a JSON array containing the matching employee data.
-#Frontend
+
+## Frontend
 The frontend interface is built with HTML, CSS, and JavaScript. The interface allows users to enter search criteria and view the results of their search in a table format.
 
 ## Postman Collection
