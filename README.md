@@ -101,9 +101,11 @@ Program Employee Filter Criteria Postman Collection
 ## Output Website
 * Run the application using Maven:
      mvn spring-boot:run
-![Screenshot from 2023-07-23 21-01-50](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/8f4ed58b-0a9a-42e5-b48c-ad7d6b6da576)
+![Screenshot from 2023-07-23 22-35-15](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/4bfbf0b5-1d8e-4727-9019-cfe9e289848b)
 
-![Screenshot from 2023-07-23 21-01-18](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/1c4a4ef8-9fb8-43fa-a4e1-b643ea50706b)
+![Screenshot from 2023-07-23 22-34-50](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/012f2834-3f89-4fd5-9572-3a70d3684709)
+
+![Screenshot from 2023-07-23 22-35-43](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/6a2baf99-6aea-4fb6-9100-d1dab63da9ed)
 
 * Open your web browser and enter the following URL:
     http://localhost:9076/index.html
