@@ -7,10 +7,10 @@ Program Employee Filter Criteria
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Usage](#usage)
-* [API Endpoints](#api_endpoints)
+* [API Endpoints](#api-endpoints)
 * [Frontend](#frontend)
-* [Postman Collection](#postman_collection)
-* [Output webisite](#output_of_website)
+* [Postman Collection](#postman-collection)
+* [Output webisite](#output-of-website)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -61,6 +61,7 @@ The project uses the following technologies:
 * Java Spring Boot (Backend API)
 * HTML, CSS, JavaScript (Frontend Interface)
 * MySQL (Database)
+
 ## Setup
 To set up the project on your local machine, follow these steps:
 
