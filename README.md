@@ -10,7 +10,7 @@ Program Employee Filter Criteria
 * [API Endpoints](#api-endpoints)
 * [Frontend](#frontend)
 * [Postman Collection](#postman-collection)
-* [Output webisite](#output-of-website)
+* [Output webisite](#output-website)
 * [Contributing](#contributing)
 * [License](#license)
 
