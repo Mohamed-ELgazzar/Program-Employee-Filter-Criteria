@@ -3,6 +3,7 @@ Program Employee Filter Criteria
 
 ## Table of contents
 * [Description](#description)
+* [Database](#database)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Usage](#usage)
@@ -17,6 +18,42 @@ This project is a web application that allows users to filter employee data base
 
 The application utilizes a database to store employee data, and users can search for employees using different parameters such as employee code, name, birth date, birth city, department, job title, direct manager, contract type, and status.
 
+## Database
+![Screenshot from 2023-07-23 20-59-37](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/f13a0568-2536-4de1-a17f-8dc15b5e3434)
+#### ContractType
+
+An entity that represents a contract type.
+
+* **name** attribute.
+* **one-to-many** relationship with `Employee`.
+
+#### Department
+
+An entity that represents a department.
+
+* **name** attribute.
+* **one-to-many** relationship with `Employee`.
+
+#### Employee
+
+An entity that represents an employee.
+
+* **code** attribute.
+* **name** attribute.
+* **birthDate** attribute.
+* **birthCity** attribute.
+* **status** attribute.
+* **many-to-one** relationship with `ContractType`.
+* **many-to-one** relationship with `Job`.
+* **one-to-one** relationship with `Employee` (the employee's direct manager).
+* **one-to-many** relationship with `Employee` (the employee's subordinates).
+
+#### Job
+
+An entity that represents a job title.
+
+* **name** attribute.
+* **many-to-one** relationship with `Employee`.
 ## Technologies
 The project uses the following technologies:
 
