@@ -10,6 +10,7 @@ Program Employee Filter Criteria
 * [API Endpoints](#api_endpoints)
 * [Frontend](#frontend)
 * [Postman Collection](#postman_collection)
+* [Output webisite](#output_of_website)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -99,7 +100,16 @@ Program Employee Filter Criteria Postman Collection
 ![Screenshot from 2023-07-23 20-29-36](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/5bedc80d-7881-4dd4-9e8e-e339211b3e23)
 ![Screenshot from 2023-07-23 20-30-37](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/b68ae93c-7e46-4ce5-ac6f-0693707d02ae)
 
+## Output webisite
+* Run the application using Maven:
+     mvn spring-boot:run
+![Screenshot from 2023-07-23 21-01-50](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/8f4ed58b-0a9a-42e5-b48c-ad7d6b6da576)
 
+![Screenshot from 2023-07-23 21-01-18](https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria/assets/122599973/1c4a4ef8-9fb8-43fa-a4e1-b643ea50706b)
+
+* Open your web browser and enter the following URL:
+    http://localhost:9076/index.html
+* With these steps, you should be able to view the frontend page in your browser and search for employees using the Java Spring Boot backend.
 
 ## Contributing
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to open a GitHub issue or submit a pull request.
