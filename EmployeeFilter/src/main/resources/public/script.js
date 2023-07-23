@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   const searchForm = document.getElementById("searchForm");
-
   const tableBody = document.querySelector("#employeeTable tbody");
 
   searchForm.addEventListener("submit", function (event) {
@@ -26,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
       birthCity: birthCity === "Select" ? null : birthCity,
       employeeId: employeeId || null,
       departmentName: departmentName === "Select" ? null : departmentName,
-      jobTitle: jobTitle || null,
-      directManager: directManager || null,
-      contractType: contractType === "Select" ? null : contractType,
+      jobName: jobTitle || null,
+      directManagerName: directManager || null,
+      contractTypeName: contractType === "Select" ? null : contractType,
       status: status === "Select" ? null : status === "true",
     };
 
@@ -52,9 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
             <td>${employee.birthCity}</td>
             <td>${employee.employeeId}</td>
             <td>${employee.departmentName}</td>
-            <td>${employee.jobTitle}</td>
-            <td>${employee.directManager}</td>
-            <td>${employee.contractType}</td>
+            <td>${employee.jobName}</td>
+            <td>${employee.directManagerName}</td>
+            <td>${employee.contractTypeName}</td>
             <td>
               <ion-icon class="icon right" name="checkmark-outline"></ion-icon>
             </td>
