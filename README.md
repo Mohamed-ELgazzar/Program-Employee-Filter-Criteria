@@ -57,9 +57,9 @@ An entity that represents a job title.
 ## Technologies
 The project uses the following technologies:
 
-Java Spring Boot (Backend API)
-HTML, CSS, JavaScript (Frontend Interface)
-MySQL (Database)
+* Java Spring Boot (Backend API)
+* HTML, CSS, JavaScript (Frontend Interface)
+* MySQL (Database)
 ## Setup
 To set up the project on your local machine, follow these steps:
 
