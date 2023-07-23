@@ -1,19 +1,13 @@
-// Wait for the DOM content to be loaded
 document.addEventListener("DOMContentLoaded", function () {
-  // Get a reference to the search form
   const searchForm = document.getElementById("searchForm");
 
-  // Get a reference to the employee table body
   const tableBody = document.querySelector("#employeeTable tbody");
 
-  // Add a submit event listener to the search form
   searchForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    // Clear the table body before adding new search results
     tableBody.innerHTML = "";
 
-    // Get the search criteria from the form inputs
     const code = document.getElementById("ecode").value.trim();
     const name = document.getElementById("ename").value.trim();
     const birthDate = document.getElementById("birth").value.trim();
@@ -25,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const contractType = document.getElementById("contract").value;
     const status = document.getElementById("status").value;
 
-    // Create an object with the search criteria
     const searchCriteria = {
       code: code || null,
       name: name || null,
@@ -39,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
       status: status === "Select" ? null : status === "true",
     };
 
-    // Send the search criteria as a POST request to the backend API
     fetch("/employees/search", {
       method: "POST",
       headers: {
@@ -49,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
     })
       .then((response) => response.json())
       .then((data) => {
-        // Populate the table with the search results
         data.forEach((employee) => {
           const row = tableBody.insertRow();
           row.innerHTML = `
