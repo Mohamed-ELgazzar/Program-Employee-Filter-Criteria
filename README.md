@@ -63,33 +63,29 @@ The project uses the following technologies:
 * MySQL (Database)
 
 ## Setup
-To set up the project on your local machine, follow these steps:
+* To set up the project on your local machine, follow these steps:
 
-Clone the repository from GitHub.
-bash
-Copy code
-git clone https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria.git
-Import the project into your preferred IDE (e.g., IntelliJ, Eclipse).
-
-Configure the database connection in the application.properties file with your MySQL credentials.
-
-Run the Spring Boot application to start the backend server.
+1. Clone the repository from GitHub.
+  git clone https://github.com/Mohamed-ELgazzar/Program-Employee-Filter-Criteria.git
+2. Import the project into your preferred IDE (e.g., IntelliJ, Eclipse).
+3. Configure the database connection in the application.properties file with your MySQL credentials.
+4. Run the Spring Boot application to start the backend server.
 
 ## Usage
-To use the employee filter criteria application, follow these steps:
+* To use the employee filter criteria application, follow these steps:
 
-Access the frontend interface by opening the index.html file in a web browser.
+1. Access the frontend interface by opening the index.html file in a web browser.
 
-Enter the search criteria in the form provided on the page.
+2. Enter the search criteria in the form provided on the page.
 
-Click the "View" button to trigger a search based on the entered criteria.
+3. Click the "View" button to trigger a search based on the entered criteria.
 
-The search results will be displayed in a table below the form.
+* The search results will be displayed in a table below the form.
 
 ## API Endpoints
-The backend API provides the following endpoint:
+* The backend API provides the following endpoint:
 
-POST /employees/search: Performs a search for employees based on the provided criteria. The search criteria are sent as JSON data in the request body. The API responds with a JSON array containing the matching employee data.
+* POST /employees/search: Performs a search for employees based on the provided criteria. The search criteria are sent as JSON data in the request body. The API      responds with a JSON array containing the matching employee data.
 
 ## Frontend
 The frontend interface is built with HTML, CSS, and JavaScript. The interface allows users to enter search criteria and view the results of their search in a table format.
